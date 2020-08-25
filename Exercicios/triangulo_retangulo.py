@@ -1,3 +1,6 @@
+'''Escreva, na classe Triangulo, o método retangulo() que 
+devolve True se o triângulo for retângulo, e False caso contrário.'''
+
 from math import pow
 class Triangulo:
     def __init__(self, a, b, c):

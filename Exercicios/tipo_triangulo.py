@@ -1,3 +1,10 @@
+'''Na classe triângulo, definida no exercício Classe triângulo, escreva 
+o metodo tipo_lado() que devolve uma string dizendo se o triângulo é:
+isósceles (dois lados iguais)
+equilátero (todos os lados iguais)
+escaleno (todos os lados diferentes)
+Note que se o triângulo for equilátero, a função não deve devolver isóceles.'''
+
 class Triangulo:
     def __init__(self, a, b, c):
         self.a = a

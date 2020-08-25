@@ -1,3 +1,7 @@
+'''Escreva a função soma_matrizes(m1, m2) que recebe 2 matrizes e 
+devolve uma matriz que represente sua soma caso as matrizes tenham
+ dimensões iguais. Caso contrário, a função deve devolver False. '''
+
 def soma_matrizes(m1, m2):
     if dimensoes(m1) == dimensoes(m2):
         matriz = []

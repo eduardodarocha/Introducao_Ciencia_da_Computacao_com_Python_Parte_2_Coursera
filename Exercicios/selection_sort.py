@@ -1,3 +1,7 @@
+'''Implemente a função ordena(lista), que recebe uma lista com 
+números inteiros como parâmetro e devolve esta lista ordenada 
+em ordem crescente. Utilize o algoritmo selection sort.'''
+
 def ordena(lista):
     for i in range(len(lista) - 1):
         pos_min = i
