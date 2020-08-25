@@ -1,0 +1,6 @@
+teste = ()
+teste = list(teste)
+print(teste)
+teste.expand("3")
+teste.append("4")
+print(teste)
